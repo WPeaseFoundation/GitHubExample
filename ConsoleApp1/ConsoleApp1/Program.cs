@@ -7,6 +7,12 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Sprint1Method();
+        }
+
+        static void Sprint1Method()
+        {
+            Console.WriteLine("Here be text!");
         }
     }
 }
