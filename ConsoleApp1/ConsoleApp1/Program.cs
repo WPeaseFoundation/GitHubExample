@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsoleApp1.Classes;
+using System;
 
 namespace ConsoleApp1
 {
@@ -13,6 +14,9 @@ namespace ConsoleApp1
         static void Sprint1Method()
         {
             Console.WriteLine("Here be text!");
+
+            CoolNewClass cnc = new CoolNewClass();
+            Console.WriteLine(cnc.GetData());
         }
     }
 }
